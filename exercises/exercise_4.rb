@@ -54,7 +54,7 @@ Store.create(
 
   # puts @womens_stores
 
-  @womens_stores.where("annual_revenue < 10000000").find_each do |store|
+  @womens_stores.where("annual_revenue < 1000000").find_each do |store|
     print store.name, ": "
     print store.annual_revenue, ", "
     puts ""
