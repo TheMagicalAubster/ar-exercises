@@ -3,6 +3,7 @@ require 'active_record'
 require_relative 'lib/store'
 require_relative 'lib/employee'
 
+
 # Output messages from Active Record to standard out
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 

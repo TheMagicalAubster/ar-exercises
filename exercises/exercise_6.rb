@@ -8,8 +8,6 @@
 # 4. Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the `@store#` instance variables that you defined in previous exercises. Create a bunch under `@store1` (Burnaby) and `@store2` (Richmond). Eg: `@store1.employees.create(...)`.
 
 
-
-
 require_relative '../setup'
 require_relative './exercise_1'
 require_relative './exercise_2'
@@ -22,9 +20,7 @@ puts "----------"
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 
-
-
-@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani2", hourly_rate: 60)
 @store1.employees.create(first_name: "Smith", last_name: "John", hourly_rate: 60)
 @store1.employees.create(first_name: "Pickles", last_name: "Lettuce", hourly_rate: 60)
 @store1.employees.create(first_name: "Ham", last_name: "Cheese", hourly_rate: 60)
@@ -32,5 +28,5 @@ puts "----------"
 @store2.employees.create(first_name: "Chicken", last_name: "Nuggets", hourly_rate: 60)
 @store2.employees.create(first_name: "Straw", last_name: "is Orange", hourly_rate: 60)
 @store2.employees.create(first_name: "Grass", last_name: "is Green", hourly_rate: 60)
-@store3.employees.create(first_name: "Buena", last_name: "is Dog", hourly_rate: 60)
-@store4.employees.create(first_name: "Dasha", last_name: "is Dog", hourly_rate: 60)
+@store2.employees.create(first_name: "Buena", last_name: "is Dog", hourly_rate: 60)
+@store2.employees.create(first_name: "Dasha", last_name: "is Dog", hourly_rate: 60)
