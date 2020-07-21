@@ -17,5 +17,6 @@ puts "----------"
 
 
 @store1.name = 'Burnaby_is_Crazy'
+@store1.save
 
 puts @store1.name
